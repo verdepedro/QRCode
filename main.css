@@ -1,0 +1,42 @@
+/*Set the @import for the font*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Hubballi&family=Outfit&family=Qwitcher+Grypen&family=Roboto&family=Tajawal:wght@200&display=swap');
+
+/*Set the background color*/
+body {
+    background-color: hsl(212, 45%, 89%);
+    padding-top: 100px;
+}
+
+#qrcontainer {
+    width: 300px;
+    height: 430px;
+    border-radius: 5%;
+    background-color: white;
+    padding-top: 12px;
+    text-align: center;
+    margin: auto;
+}
+
+#qrimage {
+    width: 275px;
+    border-radius: 5%;
+}
+
+#title {
+    font-weight: bold;
+    font-family: 'Outfit', sans-serif;
+    font-size: large;
+    padding: 0px 10px 0px 10px;
+}
+
+#description {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(220, 15%, 55%);
+    padding: 0px 10px 0px 10px;
+}
+
+/*Set the configuration for the footer text*/
+.attribution { font-size: 11px; text-align: center; font-family: 'Outfit', sans-serif;}
+
+/*Set the configuration for the footer text whn hover*/
+.attribution a { color: hsl(228, 45%, 44%); }
